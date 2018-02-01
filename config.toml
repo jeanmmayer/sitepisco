@@ -34,7 +34,14 @@ paginate = 10
 
 [[menu.main]]
     name = "Conteúdo"
-    url  = ""
+    identifier = "conteudo"
+    url = "#"
+    weight = 4
+
+[[menu.main]]
+    name = "Blog"
+    parent = "conteudo"
+    url = "/blog/"
     weight = 4
 
 [[menu.main]]
@@ -43,34 +50,14 @@ paginate = 10
     weight = 5
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
+    name = "Contato"
+    url  = "/contato/"
     weight = 6
 
 [[menu.main]]
-    name = "Contato"
-    url  = "/contato/"
-    weight = 7
-
-# Top bar social links menu
-
-[[menu.topbar]]
-    weight = 1
-    name = "Facebook"
-    url = "http://facebook.com/piscosoftware"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Twitter"
-    url = "http://twitter.com/piscosoftware"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Email"
-    url = "mailto:jean.mayer@pisco.net.br"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+    name = "Login"
+    url  = "https://www.pisco.net.br/login/"
+    weight = 6
 
 [params]
     viewMorePostLink = "/blog/"
@@ -116,9 +103,7 @@ paginate = 10
 [params.topbar]
     enable = true
     text = """
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
+        <button class='experimente-gratis'>Experimente grátis</button>
       """
 
 # Enable and disable widgets for the right sidebar
