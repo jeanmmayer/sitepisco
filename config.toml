@@ -1,6 +1,6 @@
 baseURL = "http://pisco.epizy.com/"
 languageCode = "pt-br"
-title = "Universal"
+title = "Pisco Software"
 theme = "hugo-universal-theme"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "pt-br"
@@ -42,6 +42,12 @@ paginate = 10
     name = "Blog"
     parent = "conteudo"
     url = "/blog/"
+    weight = 4
+
+[[menu.main]]
+    name = "Webinars"
+    parent = "conteudo"
+    url = "/webinars/"
     weight = 4
 
 [[menu.main]]
