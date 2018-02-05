@@ -12,3 +12,77 @@
 .navbar-brand img {
   max-height: 50px;
 }
+
+.experimente-gratis {
+  color: white !important;
+  border: none !important;
+  background: #4ABA58 !important;
+  float: right;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  animation: wiggle 2.5s infinite;
+}
+
+#top {
+  background-color: white !important;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding: 5px 0 !important;
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(2deg); }
+ 88% { transform: rotate(-2deg); }
+ 91% { transform: rotate(2deg); }
+ 94% { transform: rotate(-2deg); }
+100% { transform: rotate(0deg); }
+}
+
+
+.social-media-footer div {
+  display: inline-block;
+  background-color: rgba(255,255,255,.1);
+  border-radius: 100%;
+  width: 50px;
+  text-align: center;
+  margin: 0 8px;
+  transition: .3s;
+}
+
+.social-media-footer div:hover {
+  background-color: rgba(255,255,255,.2);
+}
+
+.social-media-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.logo-footer {
+  max-height: 50px;
+}
+
+.footer-submenu img {
+  margin-bottom: 20px;
+}
+
+.footer-submenu li {
+  padding: 5px 0 !important;
+}
+
+.footer-submenu a {
+  color: #eeeeee !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+
+.footer-submenu a:hover {
+  text-decoration: underline !important;
+}

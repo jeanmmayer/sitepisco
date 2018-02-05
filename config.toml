@@ -17,48 +17,49 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "Início"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
     name = "Soluções"
     identifier = "solucoes"
     url  = "/solucoes/"
-    weight = 2
+    weight = 1
 
 [[menu.main]]
     name = "Planos e preços"
     url  = "/planos-e-precos/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Conteúdo"
     identifier = "conteudo"
     url = "#"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     name = "Blog"
     parent = "conteudo"
     url = "/blog/"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     name = "Webinars"
     parent = "conteudo"
     url = "/webinars/"
-    weight = 4
+    weight = 3
+
+[[menu.main]]
+    name = "Learning"
+    parent = "conteudo"
+    url = "/learning/"
+    weight = 3
 
 [[menu.main]]
     name = "Eventos"
     url  = "/eventos/"
-    weight = 5
+    weight = 4
 
 [[menu.main]]
     name = "Contato"
     url  = "/contato/"
-    weight = 6
+    weight = 5
 
 [[menu.main]]
     name = "Login"
@@ -110,6 +111,7 @@ paginate = 10
     enable = true
     text = """
         <button class='experimente-gratis'>Experimente grátis</button>
+        <div class='n0800'> (0800 042 0086) </div>
       """
 
 # Enable and disable widgets for the right sidebar
@@ -155,6 +157,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
