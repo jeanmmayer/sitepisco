@@ -61,11 +61,6 @@ paginate = 10
     url  = "/contato/"
     weight = 5
 
-[[menu.main]]
-    name = "Login"
-    url  = "https://www.pisco.net.br/login/"
-    weight = 6
-
 [params]
     viewMorePostLink = "/blog/"
     author = "Jean Michael Mayer"
@@ -149,7 +144,7 @@ paginate = 10
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
