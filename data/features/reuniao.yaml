@@ -1,4 +1,4 @@
-weight: 3
-name: "Gestão de Reuniões"
+weight: 6
+name: "Gestão de Agendamentos de Reuniões"
 icon: "img/icons/reuniao.png"
 description: "Reserva de horários e datas para sala de reunião."
