@@ -105,7 +105,7 @@ paginate = 10
 [params.topbar]
     enable = true
     text = """
-        <button class='experimente-gratis'>Experimente grátis</button>
+        <button class='experimente-gratis'>Experimente Grátis</button>
         <div class='n0800'> 0800 042 0086 </div>
       """
 
