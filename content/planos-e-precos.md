@@ -1,4 +1,4 @@
 +++
-title = "Planos e preços"
+title = "Planos"
 id = "planos-e-precos"
 +++

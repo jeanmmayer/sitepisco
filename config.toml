@@ -46,9 +46,9 @@ paginate = 10
     weight = 3
 
 [[menu.main]]
-    name = "Learning"
+    name = "E-book"
     parent = "conteudo"
-    url = "/learning/"
+    url = "/ebook/"
     weight = 3
 
 [[menu.main]]
@@ -132,8 +132,8 @@ paginate = 10
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Depoimentos"
+    subtitle = ""
 
 [params.see_more]
     enable = true
