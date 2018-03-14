@@ -1,4 +1,4 @@
-baseURL = "http://pisco.epizy.com/"
+baseURL = "http://pisco.net.br/"
 languageCode = "pt-br"
 title = "Pisco Software"
 theme = "hugo-universal-theme"
