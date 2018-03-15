@@ -305,7 +305,6 @@ ul.list-style-none {
   border: none;
 }
 .navbar ul.nav > li > a {
-  text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
@@ -1190,7 +1189,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h1 {
   font-weight: 700;
-  text-transform: uppercase;
   font-size: 46px;
   letter-spacing: 0.08em;
 }

@@ -1,4 +1,4 @@
-baseURL = "http://pisco.net.br/"
+baseURL = "https://pisco.net.br/"
 languageCode = "pt-br"
 title = "Pisco Software"
 theme = "hugo-universal-theme"
@@ -88,7 +88,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "jean.mayer@pisco.net.br"
+    email = "atendimento@pisco.net.br"
 
     about_us = "<p>Sobre a pisco.</p>"
     copyright = "Copyright (c) 2018, PISCO SOFTWARE; todos os direitos reservados."

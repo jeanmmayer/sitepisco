@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Pisco Software</title>
-    <link>http://pisco.epizy.com/blog/</link>
+    <link>https://pisco.net.br/blog/</link>
     <description>Recent content in Blogs on Pisco Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Copyright (c) 2018, PISCO SOFTWARE; todos os direitos reservados.</copyright>
     <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="http://pisco.epizy.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pisco.net.br/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Post de exemplo</title>
-      <link>http://pisco.epizy.com/blog/2015/10/10/post-exemplo/</link>
+      <link>https://pisco.net.br/blog/2015/10/10/post-exemplo/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://pisco.epizy.com/blog/2015/10/10/post-exemplo/</guid>
+      <guid>https://pisco.net.br/blog/2015/10/10/post-exemplo/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>

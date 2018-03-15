@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Pisco Software</title>
-    <link>http://pisco.epizy.com/tags/</link>
+    <link>https://pisco.net.br/tags/</link>
     <description>Recent content in Tags on Pisco Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Copyright (c) 2018, PISCO SOFTWARE; todos os direitos reservados.</copyright>
     <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="http://pisco.epizy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pisco.net.br/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Outra Tag</title>
-      <link>http://pisco.epizy.com/tags/outra-tag/</link>
+      <link>https://pisco.net.br/tags/outra-tag/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://pisco.epizy.com/tags/outra-tag/</guid>
+      <guid>https://pisco.net.br/tags/outra-tag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uma Tag</title>
-      <link>http://pisco.epizy.com/tags/uma-tag/</link>
+      <link>https://pisco.net.br/tags/uma-tag/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://pisco.epizy.com/tags/uma-tag/</guid>
+      <guid>https://pisco.net.br/tags/uma-tag/</guid>
       <description></description>
     </item>
     

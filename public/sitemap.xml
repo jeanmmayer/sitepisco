@@ -3,78 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pisco.epizy.com/blog/2015/10/10/post-exemplo/</loc>
+    <loc>https://pisco.net.br/blog/2015/10/10/post-exemplo/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/blog/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/categories/cat-1/</loc>
+    <loc>https://pisco.net.br/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/categories/</loc>
+    <loc>https://pisco.net.br/categories/cat-1/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/contato/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/eventos/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/learning/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/tags/outra-tag/</loc>
+    <loc>https://pisco.net.br/categories/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/</loc>
+    <loc>https://pisco.net.br/contato/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/ebook/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/eventos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/tags/outra-tag/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/planos-e-precos/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/solucoes/</loc>
-  </url>
-  
-  <url>
-    <loc>http://pisco.epizy.com/tags/</loc>
+    <loc>https://pisco.net.br/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/tags/uma-tag/</loc>
+    <loc>https://pisco.net.br/planos-e-precos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/solucoes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/tags/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pisco.epizy.com/webinars/</loc>
+    <loc>https://pisco.net.br/tags/uma-tag/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pisco.net.br/webinars/</loc>
   </url>
   
 </urlset>

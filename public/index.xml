@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pisco Software</title>
-    <link>http://pisco.epizy.com/</link>
+    <link>https://pisco.net.br/</link>
     <description>Recent content on Pisco Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Copyright (c) 2018, PISCO SOFTWARE; todos os direitos reservados.</copyright>
     <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="http://pisco.epizy.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pisco.net.br/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Post de exemplo</title>
-      <link>http://pisco.epizy.com/blog/2015/10/10/post-exemplo/</link>
+      <link>https://pisco.net.br/blog/2015/10/10/post-exemplo/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://pisco.epizy.com/blog/2015/10/10/post-exemplo/</guid>
+      <guid>https://pisco.net.br/blog/2015/10/10/post-exemplo/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -25,65 +25,65 @@
     
     <item>
       <title>Contato</title>
-      <link>http://pisco.epizy.com/contato/</link>
+      <link>https://pisco.net.br/contato/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://pisco.epizy.com/contato/</guid>
+      <guid>https://pisco.net.br/contato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ebook</title>
+      <link>https://pisco.net.br/ebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pisco.net.br/ebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eventos</title>
-      <link>http://pisco.epizy.com/eventos/</link>
+      <link>https://pisco.net.br/eventos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://pisco.epizy.com/eventos/</guid>
+      <guid>https://pisco.net.br/eventos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>http://pisco.epizy.com/faq/</link>
+      <link>https://pisco.net.br/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://pisco.epizy.com/faq/</guid>
+      <guid>https://pisco.net.br/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
     
     <item>
-      <title>Learning</title>
-      <link>http://pisco.epizy.com/learning/</link>
+      <title>Planos</title>
+      <link>https://pisco.net.br/planos-e-precos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://pisco.epizy.com/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planos e preços</title>
-      <link>http://pisco.epizy.com/planos-e-precos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://pisco.epizy.com/planos-e-precos/</guid>
+      <guid>https://pisco.net.br/planos-e-precos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Soluções</title>
-      <link>http://pisco.epizy.com/solucoes/</link>
+      <link>https://pisco.net.br/solucoes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://pisco.epizy.com/solucoes/</guid>
+      <guid>https://pisco.net.br/solucoes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webinars</title>
-      <link>http://pisco.epizy.com/webinars/</link>
+      <link>https://pisco.net.br/webinars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://pisco.epizy.com/webinars/</guid>
+      <guid>https://pisco.net.br/webinars/</guid>
       <description></description>
     </item>
     

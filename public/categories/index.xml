@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pisco Software</title>
-    <link>http://pisco.epizy.com/categories/</link>
+    <link>https://pisco.net.br/categories/</link>
     <description>Recent content in Categories on Pisco Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Copyright (c) 2018, PISCO SOFTWARE; todos os direitos reservados.</copyright>
     <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="http://pisco.epizy.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pisco.net.br/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cat 1</title>
-      <link>http://pisco.epizy.com/categories/cat-1/</link>
+      <link>https://pisco.net.br/categories/cat-1/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://pisco.epizy.com/categories/cat-1/</guid>
+      <guid>https://pisco.net.br/categories/cat-1/</guid>
       <description></description>
     </item>
     
