@@ -105,8 +105,8 @@ paginate = 10
 [params.topbar]
     enable = true
     text = """
-        <button class='experimente-gratis'>Experimente Grátis</button>
-        <div class='n0800'> 0800 042 0086 </div>
+        <button class="experimente-gratis" onclick="window.location.replace('https://pisco.net.br/planos-e-precos/')">Experimente Grátis</button>
+        <div class="n0800"> 0800 042 0086 </div>
       """
 
 # Enable and disable widgets for the right sidebar
