@@ -19,7 +19,7 @@ paginate = 10
 [[menu.main]]
     name = "Soluções"
     identifier = "solucoes"
-    url  = "/solucoes/"
+    url  = "/#solucoes"
     weight = 1
 
 [[menu.main]]
