@@ -7,19 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Copyright (c) 2018, PISCO SOFTWARE; todos os direitos reservados.</copyright>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
 	<atom:link href="https://pisco.net.br/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Cat 1</title>
-      <link>https://pisco.net.br/categories/cat-1/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
-      
-      <guid>https://pisco.net.br/categories/cat-1/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

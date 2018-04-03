@@ -141,7 +141,7 @@ html, body {
 }
 
 .dropdown-menu img {
-  max-width: 90px;
+  max-width: 60px;
 }
 
 .flex .box-simple:first-child,
@@ -161,6 +161,7 @@ html, body {
 
 .home-carousel p {
   text-transform: none !important;
+  font-size: 25px;
 }
 
 .social-media-footer div {
@@ -261,6 +262,10 @@ html, body {
   max-width: 70px;
 }
 
+.mais-v {
+  background-color: red;
+}
+
 .ligamos {
   background-color: rgba(0,0,0,0);
   border: none;
@@ -273,6 +278,10 @@ html, body {
   text-transform: none;
 }
 
+iframe {
+  border: none;
+}
+
 #blog-listing-medium {
   border-right: 1px solid rgba(0, 0, 0, .1);
 }
@@ -282,9 +291,9 @@ html, body {
 }
 
 .navbar .dropdown-menu {
-  width: 399px;
-  margin-right: -283px !important;
-  background-color: rgba(70, 127, 191, .9);
+  width: 309px;
+  margin-right: -193px !important;
+  background-color: rgba(70, 127, 191, 0);
 }
 
 .newsletter-body {
@@ -387,6 +396,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-size: 15px;
+  word-break: break-word !important;
 }
 
 .plano-box:first-child .container-inside {
@@ -463,4 +473,202 @@ html, body {
 .n_usuarios:focus {
   outline: none !important;
   border-color: white !important;
+}
+
+.cart-resum {
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.cart-resum b.dest {
+  font-size: 19px;
+  font-weight: bold;
+  color: black;
+}
+
+.alertable {
+	position: fixed;
+	z-index: 9999;
+	top: 38vh;
+	left: calc(50% - 150px);
+	width: 300px;
+	background: white;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+  /* Overlay */
+.alertable-overlay {
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .5);
+}
+
+  /* Message */
+.alertable-message {
+	margin-bottom: 20px;
+}
+
+  /* Prompt */
+.alertable-prompt {
+	margin-bottom: 20px;
+}
+
+.alertable-input {
+	width: 100%;
+	border-radius: 4px;
+	box-shadow: none;
+	border: solid 1px #ccc;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	padding: 6px 12px;
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+/* Button group */
+.alertable-buttons {
+	text-align: right;
+}
+
+/* OK button */
+.alertable-ok {
+	background: #09d;
+	border: solid 1px #09d;
+	font-family: inherit;
+	font-size: inherit;
+	color: white;
+	border-radius: 4px;
+	padding: 6px 12px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+.alertable-ok:hover,
+.alertable-ok:focus,
+.alertable-ok:active {
+	background-color: #08c;
+}
+
+/* Cancel button */
+.alertable-cancel {
+	border: solid 1px #ddd;
+	background: white;
+	font-family: inherit;
+	font-size: inherit;
+	color: #888;
+	border-radius: 4px;
+	padding: 6px 12px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+.alertable-cancel:hover,
+.alertable-cancel:focus,
+.alertable-cancel:active {
+	background-color: #f2f2f2;
+}
+
+.lib, .whol {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-top: 0;
+}
+
+.main-desc-container {
+  border-bottom: none;
+}
+
+.lib {
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+  border-left: none;
+}
+
+.whol {
+  border-radius: 0 3px 3px 0;
+  border-right: none;
+}
+
+.arrow_box {
+	position: relative;
+  margin-bottom: 13px;
+}
+
+.arrow_box:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-width: 13px;
+	margin-left: -13px;
+}
+
+.arrow_box.arr1 {
+  background-color: rgba(69,191,180,1);
+}
+
+.arrow_box.arr1:after {
+  border-top-color: rgba(69,191,180,1);
+}
+
+.arrow_box.arr2 {
+  background-color: rgba(251,184,129,1);
+}
+
+.arrow_box.arr2:after {
+  border-top-color: rgba(251,184,129,1);
+}
+
+.arrow_box.arr3 {
+  background-color: rgba(234,115,152,1);
+}
+
+.arrow_box.arr3:after {
+  border-top-color: rgba(234,115,152,1);
+}
+
+.arrow_box.arr4 {
+  background-color: rgba(212,170,105,1);
+}
+
+.arrow_box.arr4:after {
+  border-top-color: rgba(212,170,105,1);
+}
+
+.selo-container {
+  position: relative;
+}
+
+.selo-container img {
+  max-width: 90px;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 5px;
+}
+
+.testimonials {
+  position: relative;
+}
+
+.test-container .video {
+  position: absolute;
+  right: 10%;
+  top: 110px;
 }

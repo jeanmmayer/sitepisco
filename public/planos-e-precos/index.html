@@ -18,7 +18,7 @@
   <meta name="generator" content="Hugo 0.32.4" />
 
   
-  <link rel="stylesheet" href="https://pisco.net.br/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pisco.net.br/css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://pisco.net.br/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   
@@ -28,6 +28,17 @@
   
     <link href="https://pisco.net.br/css/style.blue.css" rel="stylesheet" id="theme-stylesheet" />
   
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113693916-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113693916-1');
+</script>
+
 
 
   
@@ -69,8 +80,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-                <button class='experimente-gratis'>Experimente Grátis</button>
-        <div class='n0800'> 0800 042 0086 </div>
+                <button class="experimente-gratis" onclick="window.location.replace('https://pisco.net.br/planos-e-precos/')">Experimente Grátis</button>
+        <div class="n0800"> 0800 042 0086 </div>
       
         <img class='ntel' src='https://pisco.net.br/img/icons/telefone.png'/>
         <button class='btn ligamos' data-toggle="modal" data-target="#modalLigamos"> Ligamos para você! </button>
@@ -89,18 +100,41 @@
       <div class="modal-body">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <form method="post" action="https://formspree.io/atendimento@pisco.net.br">
+          <form
+            action="https://formcarry.com/s/rkmNsVYYM"
+            method="POST"
+            accept-charset="UTF-8"
+          >
             <div class="form-group">
               <label for="usr">Nome:</label>
-              <input type="text" class="form-control" name="Nome" id="Nome">
+              <input
+                type="text"
+                class="form-control"
+                name="Nome"
+                required
+                id="Nome"
+              >
             </div>
             <div class="form-group">
               <label for="email">E-mail:</label>
-              <input type="text" class="form-control" name="Email" id="Email">
+              <input
+                type="text"
+                class="form-control"
+                name="Email"
+                required
+                id="Email"
+              >
             </div>
             <div class="form-group">
               <label for="tel">Telefone:</label>
-              <input type="text" placeholder="(00) 0000-0000" class="form-control" name="Telefone" id="Telefone">
+              <input
+                type="text"
+                placeholder="(00) 0000-0000"
+                required
+                class="form-control"
+                name="Telefone"
+                id="Telefone"
+              >
             </div>
           </div>
           <div class="clearfix"></div>
@@ -116,7 +150,7 @@
   </div>
 </div>
 
-          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="180">
 
     <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
@@ -140,7 +174,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/solucoes/">Soluções</a>
+                    <a href="/#solucoes">Soluções</a>
                     
                 </li>
                 
@@ -157,17 +191,17 @@
                         <li>
                             <a href="/blog">
                                 
-                                <img src="http://www.pisco.epizy.com/img/veja_mais/blog1.png" />
+                                <img src="https://pisco.net.br/img/veja_mais/blog1.png" />
                             </a>
                         </li>
                         <li>
                             <a href="/ebook">
-                                <img src="http://www.pisco.epizy.com/img/veja_mais/ebook1.png" />
+                                <img src="https://pisco.net.br/img/veja_mais/ebook1.png" />
                             </a>
                         </li>
                         <li>
                             <a href="/webinars">
-                                <img src="http://www.pisco.epizy.com/img/veja_mais/webinar1.png" />
+                                <img src="https://pisco.net.br/img/veja_mais/webinar1.png" />
                             </a>
                         </li>
                     </ul>
@@ -187,7 +221,7 @@
                 </li>
                 
                 <li class="dropdown">
-                    <a href="http://app.pisco.net.br/login" target="_blank">Login <img class="usrlgn" src="https://pisco.net.br/img/icons/Login.png"/></a>
+                    <a href="https://app.pisco.net.br/login" target="_blank">Login <img class="usrlgn" src="https://pisco.net.br/img/icons/Login.png"/></a>
                 </li>
                 </ul>
             </div>
@@ -215,6 +249,31 @@
 
 </div>
 
+<div class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" id="modalContatoOk">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Mensagem enviada!</h4>
+        </div>
+        <div class="modal-body">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="text-center">
+                    <i class="fa fa-envelope" style="margin:auto; font-size: 50px; margin-bottom: 20px; color:#4ABA58"></i>
+                </div>
+                <div id="msgcnt"></div>
+            <div class="text-center" style="margin-top: 20px;">
+                <a href="https://pisco.net.br" class="btn btn-primary">
+                    OK
+                </a>
+            </div>
+            </form>
+            <div class="col-md-3"></div>
+        </div>
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -240,6 +299,34 @@
     ng-app="baseApp"
     ng-controller="planosController"
 >
+    <div class="row main-desc-container">
+        <div class="col-md-3 text-center lib">
+            <b>
+                Para profissionais liberais de vendas
+            </b>
+        </div>
+        <div class="col-md-9 text-center whol">
+            <div class="col-md-12">
+                <b>
+                    Planos exclusivos para empresas de todos os tamanhos e diferentes processos comerciais
+                </b>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="arrow_box arr1"></div>
+        </div>
+        <div class="col-md-3">
+            <div class="arrow_box arr2"></div>
+        </div>
+        <div class="col-md-3 selo-container">
+            <div class="arrow_box arr3"></div>
+            <img src="https://pisco.net.br/img/selos/selo2.png" />
+        </div>
+        <div class="col-md-3">
+            <div class="arrow_box arr4"></div>
+        </div>
+    </div>
+
     <div class="row planos-container">
         <div
             class="col-md-3 plano-box"
@@ -259,7 +346,7 @@
                 </div>
                 <div class="valor-container">
                     <span class="valor">
-                        R$ [[plano.tipo_plano]]
+                        [[plano.tipo_plano | currency]]
                     </span>
                     <br>
                     <span class="usr-text">
@@ -280,30 +367,58 @@
                         </option>
                     </select>
                 </div>
-                <div class="counter" ng-if="!(plano.nome == 'Private')">
+                <div ng-if="!(plano.nome == 'Private')">
                     <div class="col-md-6">
-                        <input onkeypress="return isNumber(event)" ng-model="plano.n_usuarios" type="text" id="n_usuarios" class="form-control n_usuarios"/>
+                        <input
+                            onkeypress="return isNumber(event)"
+                            onchange="verificaN(event)"
+                            ng-model="plano.n_usuarios"
+                            type="text"
+                            id="n_usuarios"
+                            class="form-control n_usuarios"
+                        />
                     </div>
                     <div class="col-md-6" style="line-height: 34px; padding-left: 0">
                         usuários
                     </div>
                     <div class="clearfix"></div>
-                    <hr>
+                    <br>
                     <span ng-if="plano.n_usuarios">
-                        Valor total: <span ng-if="plano.tipo_plano == plano.valor_usr_mes">R$ [[ plano.tipo_plano * plano.n_usuarios ]]  por <b>mês</b></span> <span ng-if="plano.tipo_plano == plano.valor_usr_semestre">R$ [[ (plano.tipo_plano * 6) * plano.n_usuarios | number: 2 ]]  por <b>semestre</b></span> para [[ plano.n_usuarios ]] usuários.
+                        <span ng-if="plano.tipo_plano == plano.valor_usr_mes">
+                            <div class="cart-resum">
+                                Valor total para <b>[[ plano.n_usuarios ]] usuários</b><br>
+                                <br>
+                                <b class="dest">[[ plano.tipo_plano * plano.n_usuarios | currency ]]</b> para <b>1 mês</b>
+                            </div>
+                        </span>
+                        <span ng-if="plano.tipo_plano == plano.valor_usr_semestre">
+                            <div class="cart-resum">
+                                Valor total para <b>[[ plano.n_usuarios ]] usuários</b><br>
+                                <br>
+                                <b>[[ (plano.tipo_plano) * 6 * plano.n_usuarios | currency ]]</b> para <b>6 meses</b> <br> <br>
+                                Até <b class="dest">6x de [[ (plano.tipo_plano) * plano.n_usuarios | currency ]]</b>/mês <br>
+                            </div>
+                        </span>
                     </span>
                     <br>
                     <hr>
                 </div>
-                <div class="counter" ng-if="plano.nome == 'Private'">
-                    Valor total: <span ng-if="plano.tipo_plano == plano.valor_usr_mes">R$ [[ plano.tipo_plano ]]  por <b>mês</b></span> <span ng-if="plano.tipo_plano == plano.valor_usr_semestre">R$ [[ plano.tipo_plano * 6]]  por <b>semestre</b></span>.
-                    <br><br>
+                <div ng-if="plano.nome == 'Private'">
+                    <div class="cart-resum">
+                        Valor total para <b>1 usuário</b>
+                        <br><br>
+                        <span ng-if="plano.tipo_plano == plano.valor_usr_mes">
+                            <b class="dest">[[ plano.tipo_plano | currency ]]</b> para <b>1 mês</b>
+                        </span>
+                        <span ng-if="plano.tipo_plano == plano.valor_usr_semestre">
+                            <b>[[ plano.tipo_plano * 6 | currency]]</b> para <b>6 meses</b>
+                            <br><br>
+                            Até <b class="dest">6x de [[ plano.tipo_plano | currency]]</b>
+                        </span>
+                        <br>
+                    </div>
                     <hr>
                 </div>
-                <div class="desc-container">
-                    <pre>[[plano.descr]]</pre>
-                </div>
-                <hr>
                 <div class="btns-container">
                     <div class="btns-container">
                         <button class="btn btn-buy" ng-click="comprar(plano)">
@@ -316,6 +431,10 @@
                             Teste gratuitamente
                         </button>
                     </div>
+                </div>
+                <hr>
+                <div class="desc-container">
+                    <pre>[[plano.descr]]</pre>
                 </div>
             </div>
         </div>
@@ -363,11 +482,7 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <ul>
-                    <li>
-                        <a href="/empresa">
-                            Empresa
-                        </a>
-                    </li>
+                    
                     <li>
                         <a href="/ebook">
                             E-book
@@ -388,17 +503,13 @@
                             Eventos
                         </a>
                     </li>
-                    <li>
-                        <a href="https://carreiras.pisco.net.br/">
-                            Carreiras
-                        </a>
-                    </li>
+                    
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6">
                 <ul>
                     <li>
-                        <a href="/solucoes">
+                        <a href="/#solucoes">
                             Soluções
                         </a>
                     </li>
@@ -483,9 +594,20 @@
     
 
     
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-113693916-1', 'auto');
+ga('send', 'pageview');
+</script>
+
 
 
 <script src="https://pisco.net.br/js/libs/angular.min.js"></script>
+<script src="https://pisco.net.br/js/libs/angular-locale_pt-br.js"></script>
 <script src="https://pisco.net.br/js/libs/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="https://pisco.net.br/js/libs/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://pisco.net.br/js/libs/jquery.cookie.min.js"></script>
@@ -496,6 +618,7 @@
 <script src="https://pisco.net.br/js/front.js"></script>
 <script src="https://pisco.net.br/js/controllers/main.js"></script>
 <script src="https://pisco.net.br/js/controllers/planos.js"></script>
+<script src="https://pisco.net.br/js/controllers/ebook.js"></script>
 
 
 <script src="https://pisco.net.br/js/owl.carousel.min.js"></script>

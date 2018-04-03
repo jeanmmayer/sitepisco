@@ -104,6 +104,7 @@ function menuSliding () {
   })
 }
 
+
 /* animations */
 function animations () {
   var delayTime = 0
@@ -217,6 +218,24 @@ function utils () {
       event.preventDefault()
     }
   })
+
+
+var url_string = window.location.href;
+var url = new URL(url_string);
+var ev = url.searchParams.get("ev");
+
+if (ev == 't') {
+  var d = new Date();
+  d = d.getHours();
+
+  if ((d <= 17 && d >= 8) && url_string.indexOf("contato") == -1) {
+    $("#modalContatoOk").modal("show");
+    document.getElementById("msgcnt").innerHTML = "Obrigado pelo contato. <br> <br> Dentro de <b>30 minutos</b> um de nossos analistas irá entrar em contato com você.";
+  } else {
+    $("#modalContatoOk").modal("show");
+    document.getElementById("msgcnt").innerHTML = "Obrigado pelo contato. <br> <br> Assim que possível iremos entrar em contato com você.";
+  }
+}
 
   function scrollTo (fullUrl) {
     var parts = fullUrl.split('#')
